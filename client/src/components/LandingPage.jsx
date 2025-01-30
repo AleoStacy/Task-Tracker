@@ -87,7 +87,7 @@ function LandingPage() {
           <div className="text-content">
             <h2>Task Manager for Individuals</h2>
             <p>
-              Manage your tasks effortlessly! Whether it's work or personal projects,
+              Manage your tasks effortlessly! Whether It's work or personal projects,
               our task manager helps you stay organized and on top of your goals.
             </p>
             {/* <button className="learn-more-btn">Get Started</button> */}

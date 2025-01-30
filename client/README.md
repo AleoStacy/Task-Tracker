@@ -12,11 +12,10 @@ TaskMaster is a task management web application that allows users to create, edi
 
 # Technologies Used
 1. Frontend: React
-2. Backend: Node.js, Express (API)
+2. Backend: Flask Python, Resftful (API)
 3. Database: JSON Server (for local storage)
 4. Authentication: JWT (JSON Web Token)
 5. Styling: CSS
-6 .Setup Instructions
 
 1. Clone the repository
 
