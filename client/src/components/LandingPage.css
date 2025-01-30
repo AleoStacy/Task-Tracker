@@ -1,6 +1,6 @@
 .landing-page {
   font-family: Arial, sans-serif;
-  text-align: center;
+  /* text-align: center; */
   padding: 2rem;
 }
 html {
@@ -8,28 +8,56 @@ html {
 }
 
 .hero {
-  background: #f5f5f5;
-  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh; /* Full screen height */
+  padding: 0 10%;
+  background-color: #ffffff; /* Light background */
+}
+
+.hero-content {
+  flex: 1;
+  max-width: 50%;
 }
 
 .hero-title {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+  font-size: 3rem;
+  margin-bottom: 10px;
 }
 
 .hero-description {
-  font-size: 1.2rem;
-  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+    line-height: 1.5;
+  
+  
 }
 
 .get-started-btn {
+  padding: 10px 20px;
+  font-size: 1.2rem;
   background-color: #20c997;
   color: white;
-  padding: 0.75rem 1.5rem;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
 }
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
 
 .feature img {
   width: 100%; /* Make the image fill the width of the container */
