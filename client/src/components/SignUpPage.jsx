@@ -66,7 +66,7 @@ function SignUpPage({ isOpen, onClose }) {
         ) : (
           <div className="thank-you-message">
             <h2>Thank You for Signing Up!</h2>
-            <p>Your registration is successful. Welcome to TaskMaker!</p>
+            <p>Your registration is successful. Welcome to TaskMaster!</p>
             <button className="thank-you-close" onClick={onClose}>
               Close
             </button>

@@ -33,7 +33,7 @@ function Navbar() {
 
   return (
     <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
-      <div className="logo">TaskManager</div>
+      <div className="logo">TaskMaster</div>
 
       <ul className="menu">
         <li><Link to="/">Home</Link></li>
